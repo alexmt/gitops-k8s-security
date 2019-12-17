@@ -4,4 +4,4 @@ install:
   - tar -zxvf kubeaudit.tar.gz
   - chmod +x kubeaudit
 script:
-  -  kubeaudit nonroot -f pod.yaml
+  -  ./kubeaudit nonroot -f pod.yaml
